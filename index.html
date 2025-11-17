@@ -1,319 +1,557 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Flexier</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexier</title>
 
-<!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-<!-- Icos Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-<!-- Style Sheet -->
-<link rel="stylesheet" href="style.css">
-<style>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <!-- Icos Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <!-- Style Sheet -->
+  <link rel="stylesheet" href="style.css">
+  <style>
 
-</style>
+  </style>
 </head>
+
 <body>
-<!-- NAvbar -->
-<nav>
-<div class="nav-container">
-  <div class="nav-left">
-    <img src="https://flixier.com/_next/static/media/flixier-logo.e13a1931.png" class="logo" />
-  </div>
-
-  <ul class="nav-links">
-    <li><a href="#" title="Home">Home</a></li>
-    <li><a href="#" title="About">About</a></li>
-    <li class="dropdown">
-      <a href="#" title="Services Dropdown">Services <i class="fa-solid fa-chevron-down" style="margin-left:5px;"></i></a>
-      <div class="mega-dropdown">
-        <a href="#" title=" Art Book Publishing"><i class="fa-solid fa-book"></i> Art Book Publishing</a>
-        <a href="#" title="Business Book Publishing"><i class="fa-solid fa-briefcase"></i> Business Book Publishing</a>
-        <a href="#" title=" Photo Book Publishing"><i class="fa-solid fa-camera"></i> Photo Book Publishing</a>
-        <a href="#" title=" Audio Book Publishing"><i class="fa-solid fa-microphone"></i> Audio Book Publishing</a>
-        <a href="#" title=" Poetry Publishing"><i class="fa-solid fa-pen-nib"></i> Poetry Publishing</a>
-        <a href="#" title="Ebook Publishing"><i class="fa-solid fa-tablet-screen-button"></i> Ebook Publishing</a>
-        <a href="#" title=" Kindle Direct Publishing"><i class="fa-brands fa-amazon"></i> Kindle Direct Publishing</a>
-        <a href="#" title=" Textbook Publishing"><i class="fa-solid fa-chalkboard"></i> Textbook Publishing</a>
-        <a href="#" title="Book Printing"><i class="fa-solid fa-print"></i> Book Printing</a>
-        <a href="#" title=" Book Marketing"><i class="fa-solid fa-bullhorn"></i> Book Marketing</a>
-        <a href="#" title=" Book Cover Design"><i class="fa-solid fa-image"></i> Book Cover Design</a>
-        <a href="#" title=" Book Layout & Design"><i class="fa-solid fa-align-left"></i> Book Layout & Design</a>
-        <a href="#" title=" Book Illustration"><i class="fa-solid fa-paint-brush"></i> Book Illustration</a>
-        <a href="#" title=" Editing & Proofreading"><i class="fa-solid fa-check"></i> Editing & Proofreading</a>
-        <a href="#" title="Children's Book Publishing"><i class="fa-solid fa-child"></i> Children's Book Publishing</a>
-        <a href="#" title=" Book Formatting"><i class="fa-solid fa-file-lines"></i> Book Formatting</a>
-        <a href="#" title=" Author Branding"><i class="fa-solid fa-user"></i> Author Branding</a>
-        <a href="#" title=" Fiction Book Publishing"><i class="fa-solid fa-feather-pointed"></i> Fiction Book Publishing</a>
+  <!-- NAvbar -->
+  <nav>
+    <div class="nav-container">
+      <div class="nav-left">
+        <img src="https://flixier.com/_next/static/media/flixier-logo.e13a1931.png" class="logo" />
       </div>
-    </li>
-    <li><a href="#" title="Reviews">Reviews</a></li>
-    <li><a href="#" title="Contact">Contact</a></li>
-  </ul>
 
-  <a href="#" class="nav-btn" title="Get Started">Get Started</a>
-  <div class="menu-icon" onclick="toggleMenu()">☰</div>
-</div>
+      <ul class="nav-links">
+        <li><a href="#" title="Home">Home</a></li>
+        <li><a href="#" title="About">About</a></li>
+        <li class="dropdown">
+          <a href="#" title="Services Dropdown">Services <i class="fa-solid fa-chevron-down"
+              style="margin-left:5px;"></i></a>
+          <div class="mega-dropdown">
+            <a href="#" title=" Art Book Publishing"><i class="fa-solid fa-book"></i> Art Book Publishing</a>
+            <a href="#" title="Business Book Publishing"><i class="fa-solid fa-briefcase"></i> Business Book
+              Publishing</a>
+            <a href="#" title=" Photo Book Publishing"><i class="fa-solid fa-camera"></i> Photo Book Publishing</a>
+            <a href="#" title=" Audio Book Publishing"><i class="fa-solid fa-microphone"></i> Audio Book Publishing</a>
+            <a href="#" title=" Poetry Publishing"><i class="fa-solid fa-pen-nib"></i> Poetry Publishing</a>
+            <a href="#" title="Ebook Publishing"><i class="fa-solid fa-tablet-screen-button"></i> Ebook Publishing</a>
+            <a href="#" title=" Kindle Direct Publishing"><i class="fa-brands fa-amazon"></i> Kindle Direct
+              Publishing</a>
+            <a href="#" title=" Textbook Publishing"><i class="fa-solid fa-chalkboard"></i> Textbook Publishing</a>
+            <a href="#" title="Book Printing"><i class="fa-solid fa-print"></i> Book Printing</a>
+            <a href="#" title=" Book Marketing"><i class="fa-solid fa-bullhorn"></i> Book Marketing</a>
+            <a href="#" title=" Book Cover Design"><i class="fa-solid fa-image"></i> Book Cover Design</a>
+            <a href="#" title=" Book Layout & Design"><i class="fa-solid fa-align-left"></i> Book Layout & Design</a>
+            <a href="#" title=" Book Illustration"><i class="fa-solid fa-paint-brush"></i> Book Illustration</a>
+            <a href="#" title=" Editing & Proofreading"><i class="fa-solid fa-check"></i> Editing & Proofreading</a>
+            <a href="#" title="Children's Book Publishing"><i class="fa-solid fa-child"></i> Children's Book
+              Publishing</a>
+            <a href="#" title=" Book Formatting"><i class="fa-solid fa-file-lines"></i> Book Formatting</a>
+            <a href="#" title=" Author Branding"><i class="fa-solid fa-user"></i> Author Branding</a>
+            <a href="#" title=" Fiction Book Publishing"><i class="fa-solid fa-feather-pointed"></i> Fiction Book
+              Publishing</a>
+          </div>
+        </li>
+        <li><a href="#" title="Reviews">Reviews</a></li>
+        <li><a href="#" title="Contact">Contact</a></li>
+      </ul>
 
-<ul class="mobile-menu" id="mobileMenu">
-  <li><a href="#" title="Home">Home</a></li>
-  <li><a href="#" title="About">About</a></li>
-  <li class="mobile-dropdown">
-    <a href="#" onclick="toggleMobileDropdown(event)" title="Services dropdown">Services <i class="fa-solid fa-chevron-down" style="margin-left:auto;"></i></a>
-    <div class="mobile-dropdown-menu">
-      <a href="#" title="Art Book Publishing"><i class="fa-solid fa-book"></i> Art Book Publishing</a>
-      <a href="#" title="Business Book Publishing"><i class="fa-solid fa-briefcase"></i> Business Book Publishing</a>
-      <a href="#" title=" Photo Book Publishing"><i class="fa-solid fa-camera"></i> Photo Book Publishing</a>
-      <a href="#" title=" Audio Book Publishing"><i class="fa-solid fa-microphone"></i> Audio Book Publishing</a>
-      <a href="#" title=" Poetry Publishing"><i class="fa-solid fa-pen-nib"></i> Poetry Publishing</a>
-      <a href="#" title=" Ebook Publishing"><i class="fa-solid fa-tablet-screen-button"></i> Ebook Publishing</a>
-      <a href="#" title=" Kindle Direct Publishing"><i class="fa-brands fa-amazon"></i> Kindle Direct Publishing</a>
-      <a href="#" title=" Textbook Publishing"><i class="fa-solid fa-chalkboard"></i> Textbook Publishing</a>
-      <a href="#" title=" Book Printing"><i class="fa-solid fa-print"></i> Book Printing</a>
-      <a href="#" title=" Book Marketing"><i class="fa-solid fa-bullhorn"></i> Book Marketing</a>
-      <a href="#" title=" Book Cover Design"><i class="fa-solid fa-image"></i> Book Cover Design</a>
-      <a href="#" title=" Book Layout & Design"><i class="fa-solid fa-align-left"></i> Book Layout & Design</a>
-      <a href="#" title=" Book Illustration"><i class="fa-solid fa-paint-brush"></i> Book Illustration</a>
-      <a href="#" title=" Editing & Proofreading"><i class="fa-solid fa-check"></i> Editing & Proofreading</a>
-      <a href="#" title=" Children's Book Publishing"><i class="fa-solid fa-child"></i> Children's Book Publishing</a>
-      <a href="#" title=" Book Formatting"><i class="fa-solid fa-file-lines"></i> Book Formatting</a>
-      <a href="#" title=" Author Branding"><i class="fa-solid fa-user"></i> Author Branding</a>
-      <a href="#" title=" Fiction Book Publishing"><i class="fa-solid fa-feather-pointed"></i> Fiction Book Publishing</a>
+      <a href="#" class="nav-btn" title="Get Started">Get Started</a>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
     </div>
-  </li>
-  <li><a href="#" title="Reviews">Reviews</a></li>
-  <li><a href="#" title="Contact">Contact</a></li>
-  <li><a href="#" title="Get Started" class="nav-btn mobile-btn">Get Started</a></li>
-</ul>
-</nav>
 
-<script>
-function toggleMenu(){
-  document.getElementById("mobileMenu").classList.toggle("show-menu");
-}
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a href="#" title="Home">Home</a></li>
+      <li><a href="#" title="About">About</a></li>
+      <li class="mobile-dropdown">
+        <a href="#" onclick="toggleMobileDropdown(event)" title="Services dropdown">Services <i
+            class="fa-solid fa-chevron-down" style="margin-left:auto;"></i></a>
+        <div class="mobile-dropdown-menu">
+          <a href="#" title="Art Book Publishing"><i class="fa-solid fa-book"></i> Art Book Publishing</a>
+          <a href="#" title="Business Book Publishing"><i class="fa-solid fa-briefcase"></i> Business Book
+            Publishing</a>
+          <a href="#" title=" Photo Book Publishing"><i class="fa-solid fa-camera"></i> Photo Book Publishing</a>
+          <a href="#" title=" Audio Book Publishing"><i class="fa-solid fa-microphone"></i> Audio Book Publishing</a>
+          <a href="#" title=" Poetry Publishing"><i class="fa-solid fa-pen-nib"></i> Poetry Publishing</a>
+          <a href="#" title=" Ebook Publishing"><i class="fa-solid fa-tablet-screen-button"></i> Ebook Publishing</a>
+          <a href="#" title=" Kindle Direct Publishing"><i class="fa-brands fa-amazon"></i> Kindle Direct Publishing</a>
+          <a href="#" title=" Textbook Publishing"><i class="fa-solid fa-chalkboard"></i> Textbook Publishing</a>
+          <a href="#" title=" Book Printing"><i class="fa-solid fa-print"></i> Book Printing</a>
+          <a href="#" title=" Book Marketing"><i class="fa-solid fa-bullhorn"></i> Book Marketing</a>
+          <a href="#" title=" Book Cover Design"><i class="fa-solid fa-image"></i> Book Cover Design</a>
+          <a href="#" title=" Book Layout & Design"><i class="fa-solid fa-align-left"></i> Book Layout & Design</a>
+          <a href="#" title=" Book Illustration"><i class="fa-solid fa-paint-brush"></i> Book Illustration</a>
+          <a href="#" title=" Editing & Proofreading"><i class="fa-solid fa-check"></i> Editing & Proofreading</a>
+          <a href="#" title=" Children's Book Publishing"><i class="fa-solid fa-child"></i> Children's Book
+            Publishing</a>
+          <a href="#" title=" Book Formatting"><i class="fa-solid fa-file-lines"></i> Book Formatting</a>
+          <a href="#" title=" Author Branding"><i class="fa-solid fa-user"></i> Author Branding</a>
+          <a href="#" title=" Fiction Book Publishing"><i class="fa-solid fa-feather-pointed"></i> Fiction Book
+            Publishing</a>
+        </div>
+      </li>
+      <li><a href="#" title="Reviews">Reviews</a></li>
+      <li><a href="#" title="Contact">Contact</a></li>
+      <li><a href="#" title="Get Started" class="nav-btn mobile-btn">Get Started</a></li>
+    </ul>
+  </nav>
 
-function toggleMobileDropdown(event){
-  event.preventDefault();
-  const dropdown = event.target.closest("li").querySelector(".mobile-dropdown-menu");
-  dropdown.classList.toggle("show-mobile-dropdown");
-}
-document.querySelectorAll('.dropdown > a').forEach(link => {
-  link.addEventListener('click', function(e){
-    e.preventDefault();
-    const mega = this.nextElementSibling;
-    mega.style.display = mega.style.display === 'grid' ? 'none' : 'grid';
-    
-    document.querySelectorAll('.mega-dropdown').forEach(other => {
-      if(other !== mega){
-        other.style.display = 'none';
-      }
+  <script>
+    function toggleMenu() {
+      document.getElementById("mobileMenu").classList.toggle("show-menu");
+    }
+
+    function toggleMobileDropdown(event) {
+      event.preventDefault();
+      const dropdown = event.target.closest("li").querySelector(".mobile-dropdown-menu");
+      dropdown.classList.toggle("show-mobile-dropdown");
+    }
+    document.querySelectorAll('.dropdown > a').forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const mega = this.nextElementSibling;
+        mega.style.display = mega.style.display === 'grid' ? 'none' : 'grid';
+
+        document.querySelectorAll('.mega-dropdown').forEach(other => {
+          if (other !== mega) {
+            other.style.display = 'none';
+          }
+        });
+      });
     });
-  });
-});
 
-document.addEventListener('click', function(e){
-  document.querySelectorAll('.mega-dropdown').forEach(menu => {
-    if(!menu.closest('li').contains(e.target)){
-      menu.style.display = 'none';
-    }
-  });
-});
-</script>
-<!-- Navbar End -->
-
-<header>
-  <video class="header-video" src="video/home-header-bg.mp4" autoplay muted loop playsinline></video>
-
-  <div class="header-overlay"></div>
-
-  <div class="header-inner-container">
-    <h1>
-      <span>Expert Book Publishing Solutions</span><br>
-      for New and Experienced Authors
-    </h1>
-    <p>Offering high-quality editing, design, and publishing services to help every author bring their book to the world with confidence.</p>
-    <a href="#" title="Get Started">Get Started</a>
-  </div>
-</header>
-
-<!-- Marquee Sction -->
-<section class="marquee-section">
-  <div class="marquee-track" id="marqueeTrack">
-    <img src="images/amazon-kindle.webp" alt="amazon-kindle" title="amazon-kindle" loading="lazy">
-    <img src="images/Barnes&Noble.png" alt="Barnes&Noble" title="Barnes&Noble" loading="lazy">
-    <img src="images/Google-Books.png" alt="Google-Books" title="Google-Books" loading="lazy">
-    <img src="images/IngramSpark.jpg" alt="IngramSpark" title="IngramSpark" loading="lazy">
-    <img src="images/Lulu-logo.png" alt="Lulu-logo" title="Lulu-logo" loading="lazy">
-    <img src="images/Rakuten-Kobo-logo.png" alt="Rakuten-Kobo-logo" title="Rakuten-Kobo-logo" loading="lazy">
-  </div>
-</section>
-
-<script>
-  const track = document.getElementById('marqueeTrack');
-  const speed = 0.5;
-  let position = 0;
-
-  track.innerHTML += track.innerHTML;
-
-  function animateMarquee() {
-    position -= speed;
-    if (Math.abs(position) >= track.scrollWidth / 2) {
-      position = 0;
-    }
-    track.style.transform = `translateX(${position}px)`;
-    requestAnimationFrame(animateMarquee);
-  }
-
-  animateMarquee();
-</script>
- 
-
-<!-- Effortless Section -->
- 
-
-<section class="book-cards-section">
-  <div class="container">
-    <h2 class="section-title">Our Publishing Services</h2>
-    <div class="cards-wrapper">
-      <div class="card rotate-1">
-        <div class="card-icon"><i class="fas fa-edit"></i></div>
-        <h3>Editing & Proofreading</h3>
-        <p>Professional editing to make your manuscript polished, clear, and ready for publication.</p>
-      </div>
-      <div class="card rotate-2">
-        <div class="card-icon"><i class="fas fa-book-open"></i></div>
-        <h3>Book Design & Layout</h3>
-        <p>Beautiful cover and interior designs that captivate readers and enhance your book’s appeal.</p>
-      </div>
-      <div class="card rotate-3">
-        <div class="card-icon"><i class="fas fa-globe"></i></div>
-        <h3>Publishing & Distribution</h3>
-        <p>We help you publish your book on major platforms, from Amazon to local bookstores.</p>
-      </div>
-      <div class="card rotate-4">
-        <div class="card-icon"><i class="fas fa-bullhorn"></i></div>
-        <h3>Marketing & Promotion</h3>
-        <p>Promote your book effectively across social media and other marketing channels.</p>
-      </div>
-      <div class="card rotate-5">
-        <div class="card-icon"><i class="fas fa-chart-line"></i></div>
-        <h3>Sales & Analytics</h3>
-        <p>Track your book sales and performance with detailed reports and insights.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const cards = document.querySelectorAll(".card");
-
-  // Store each card's current rotation from class
-  cards.forEach((card, index) => {
-    const style = window.getComputedStyle(card);
-    const matrix = style.transform;
-
-    // Extract rotation angle from transform matrix
-    let rotate = 0;
-    if (matrix !== "none") {
-      const values = matrix.split('(')[1].split(')')[0].split(',');
-      const a = values[0];
-      const b = values[1];
-      rotate = Math.round(Math.atan2(b, a) * (180 / Math.PI));
-    }
-
-    // Save rotation in dataset
-    card.dataset.rotate = rotate;
-
-    // Set initial opacity
-    card.style.opacity = 0;
-
-    // Set initial transform with rotation + offset for animation
-    let offset = "";
-    if (index % 5 === 0) offset = "translateX(-100px)";
-    else if (index % 5 === 1) offset = "translateX(100px)";
-    else if (index % 5 === 2) offset = "translateY(-100px)";
-    else if (index % 5 === 3) offset = "translateY(100px)";
-    else offset = "translateY(50px)";
-
-    card.style.transform = `${offset} rotate(${rotate}deg)`;
-    card.style.transition = "all 0.8s ease-out";
-  });
-
-  // Intersection Observer to animate cards
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const card = entry.target;
-          const rotate = card.dataset.rotate;
-          card.style.opacity = 1;
-          card.style.transform = `rotate(${rotate}deg)`;
-          observer.unobserve(card);
+    document.addEventListener('click', function (e) {
+      document.querySelectorAll('.mega-dropdown').forEach(menu => {
+        if (!menu.closest('li').contains(e.target)) {
+          menu.style.display = 'none';
         }
       });
-    },
-    { threshold: 0.2 }
-  );
+    });
+  </script>
+  <!-- Navbar End -->
 
-  cards.forEach((card) => observer.observe(card));
-});
+  <header>
+    <video class="header-video" src="video/home-header-bg.mp4" autoplay muted loop playsinline></video>
+
+    <div class="header-overlay"></div>
+
+    <div class="header-inner-container">
+      <h1>
+        <span>Expert Book Publishing Solutions</span><br>
+        for New and Experienced Authors
+      </h1>
+      <p>Offering high-quality editing, design, and publishing services to help every author bring their book to the
+        world with confidence.</p>
+      <a href="#" title="Get Started">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Marquee Sction -->
+  <section class="marquee-section">
+    <div class="marquee-track" id="marqueeTrack">
+      <img src="images/amazon-kindle.webp" alt="amazon-kindle" title="amazon-kindle" loading="lazy">
+      <img src="images/Barnes&Noble.png" alt="Barnes&Noble" title="Barnes&Noble" loading="lazy">
+      <img src="images/Google-Books.png" alt="Google-Books" title="Google-Books" loading="lazy">
+      <img src="images/IngramSpark.jpg" alt="IngramSpark" title="IngramSpark" loading="lazy">
+      <img src="images/Lulu-logo.png" alt="Lulu-logo" title="Lulu-logo" loading="lazy">
+      <img src="images/Rakuten-Kobo-logo.png" alt="Rakuten-Kobo-logo" title="Rakuten-Kobo-logo" loading="lazy">
+    </div>
+  </section>
+
+  <script>
+    const track = document.getElementById('marqueeTrack');
+    const speed = 0.5;
+    let position = 0;
+
+    track.innerHTML += track.innerHTML;
+
+    function animateMarquee() {
+      position -= speed;
+      if (Math.abs(position) >= track.scrollWidth / 2) {
+        position = 0;
+      }
+      track.style.transform = `translateX(${position}px)`;
+      requestAnimationFrame(animateMarquee);
+    }
+
+    animateMarquee();
+  </script>
+
+
+  <!-- Effortless Section -->
+
+
+  <section class="book-cards-section">
+    <div class="container">
+      <h2 class="section-title">Our Publishing Services</h2>
+      <div class="cards-wrapper">
+        <div class="card rotate-1">
+          <div class="card-icon"><i class="fas fa-edit"></i></div>
+          <h3>Editing & Proofreading</h3>
+          <p>Professional editing to make your manuscript polished, clear, and ready for publication.</p>
+        </div>
+        <div class="card rotate-2">
+          <div class="card-icon"><i class="fas fa-book-open"></i></div>
+          <h3>Book Design & Layout</h3>
+          <p>Beautiful cover and interior designs that captivate readers and enhance your book’s appeal.</p>
+        </div>
+        <div class="card rotate-3">
+          <div class="card-icon"><i class="fas fa-globe"></i></div>
+          <h3>Publishing & Distribution</h3>
+          <p>We help you publish your book on major platforms, from Amazon to local bookstores.</p>
+        </div>
+        <div class="card rotate-4">
+          <div class="card-icon"><i class="fas fa-bullhorn"></i></div>
+          <h3>Marketing & Promotion</h3>
+          <p>Promote your book effectively across social media and other marketing channels.</p>
+        </div>
+        <div class="card rotate-5">
+          <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Sales & Analytics</h3>
+          <p>Track your book sales and performance with detailed reports and insights.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const cards = document.querySelectorAll(".card");
+
+      // Store each card's current rotation from class
+      cards.forEach((card, index) => {
+        const style = window.getComputedStyle(card);
+        const matrix = style.transform;
+
+        // Extract rotation angle from transform matrix
+        let rotate = 0;
+        if (matrix !== "none") {
+          const values = matrix.split('(')[1].split(')')[0].split(',');
+          const a = values[0];
+          const b = values[1];
+          rotate = Math.round(Math.atan2(b, a) * (180 / Math.PI));
+        }
+
+        // Save rotation in dataset
+        card.dataset.rotate = rotate;
+
+        // Set initial opacity
+        card.style.opacity = 0;
+
+        // Set initial transform with rotation + offset for animation
+        let offset = "";
+        if (index % 5 === 0) offset = "translateX(-100px)";
+        else if (index % 5 === 1) offset = "translateX(100px)";
+        else if (index % 5 === 2) offset = "translateY(-100px)";
+        else if (index % 5 === 3) offset = "translateY(100px)";
+        else offset = "translateY(50px)";
+
+        card.style.transform = `${offset} rotate(${rotate}deg)`;
+        card.style.transition = "all 0.8s ease-out";
+      });
+
+      // Intersection Observer to animate cards
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const card = entry.target;
+              const rotate = card.dataset.rotate;
+              card.style.opacity = 1;
+              card.style.transform = `rotate(${rotate}deg)`;
+              observer.unobserve(card);
+            }
+          });
+        },
+        { threshold: 0.2 }
+      );
+
+      cards.forEach((card) => observer.observe(card));
+    });
+  </script>
+
+  <!-- Feature section Heading -->
+  <div class="feature-section-heading-main-container">
+    <div class="feature-section-heading-inner-container">
+      <h2>Simplified for <span>beginners.</span> Refined for <span>experienced authors.</span></h2>
+      <p>From editing to design and final publishing, we make every step intuitive without limiting your creativity.
+        Whether you're shaping your first book or perfecting your tenth, our tools and experts support your journey at
+        every stage.</p>
+    </div>
+  </div>
+
+
+  <!-- Feature Section -->
+  <div class="feature-container">
+    <div class="feature-inner-container">
+      <!-- Left Column -->
+      <div class="feature-text">
+        <h6>Your Story, Perfectly Published</h6>
+        <h2>Professional Book Publishing</h2>
+        <p>We help authors bring their stories to life with expert editing, design, and publishing services. Whether
+          you’re a first-time author or experienced, we guide you every step of the way.</p>
+      </div>
+
+      <!-- Right Column -->
+      <div class="feature-image">
+        <img src="images/home-feature-book-image.webp" alt="home-feature-book-image" title="home-feature-book-image"
+          loading="lazy" />
+      </div>
+    </div>
+  </div>
+
+  <div class="another-feature-card-container">
+    <div class="another-feature-card-inner-contianer">
+      <!-- 2 -->
+      <div class="feature-inner-container another-feature-card2" id="another-feature-card">
+        <!-- Left Column -->
+        <div class="feature-text">
+          <h6>Where Ideas Become Books</h6>
+          <h2>End-to-End Publishing Services</h2>
+          <p>We refine your manuscript, craft a stunning layout, and deliver a high-quality published book—all tailored
+            to your vision and audience.</p>
+        </div>
+
+        <!-- Right Column -->
+        <div class="feature-image">
+          <img src="images/home-another-feature-book-image-2.webp" alt="home-another-feature-book-image-2"
+            title="home-another-feature-book-image-2" loading="lazy" />
+        </div>
+      </div>
+      <!-- end -->
+      <!-- 1 -->
+      <div class="feature-inner-container another-feature-card1" id="another-feature-card">
+        <!-- Left Column -->
+        <div class="feature-text">
+          <h6>Guiding Your Publishing Journey</h6>
+          <h2>Complete Book Production</h2>
+          <p>From editing to design and final publishing, we provide everything you need to create a polished,
+            professional book ready for readers worldwide.</p>
+        </div>
+
+        <!-- Right Column -->
+        <div class="feature-image">
+          <img src="images/home-another-feature-book-image-1.webp" alt="home-another-feature-book-image-1"
+            title="home-another-feature-book-image-1" loading="lazy" />
+        </div>
+      </div>
+      <!-- end` -->
+
+    </div>
+  </div>
+
+  <!-- For Bussiness Page -->
+  <div class="bussiness-card-container">
+    <div class="bussiness-card-inner-container">
+      <h2>Publish Your Book</h2>
+      <p>Transform your manuscript into a professionally crafted book with expert editing, custom design, and full
+        publishing support. From your first draft to the final release, we ensure every detail reflects your vision and
+        resonates with your readers.</p>
+      <a href="#" title="get started">Get Started</a>
+    </div>
+  </div>
+
+  <!-- Possiblities Section -->
+  <div class="possiblities-main-container">
+    <div class="possiblities-main-inner-container">
+      <h2>Explore Our <span>Publishing Services</span></h2>
+    </div>
+
+
+    <div class="possiblities-box-container">
+
+
+      <div class="possibility-box">
+        <i class="fa-solid fa-book"></i>
+        <h3>Art Book Publishing</h3>
+        <p>Professional publishing for art‑focused books.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+
+      <div class="possibility-box">
+        <i class="fa-solid fa-briefcase"></i>
+        <h3>Business Book Publishing</h3>
+        <p>Create impactful business and corporate books.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+
+      <div class="possibility-box">
+        <i class="fa-solid fa-camera"></i>
+        <h3>Photo Book Publishing</h3>
+        <p>High‑quality printing for photography books.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+
+      <div class="possibility-box">
+        <i class="fa-solid fa-microphone"></i>
+        <h3>Audio Book Publishing</h3>
+        <p>Turn your book into a professional audiobook.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+
+      <div class="possibility-box">
+        <i class="fa-solid fa-pen-nib"></i>
+        <h3>Poetry Publishing</h3>
+        <p>Beautifully crafted designs for poetry books.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+
+      <div class="possibility-box">
+        <i class="fa-solid fa-tablet-screen-button"></i>
+        <h3>Ebook Publishing</h3>
+        <p>Make your book available on all digital platforms.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+
+      <div class="possibility-box">
+        <i class="fa-brands fa-amazon"></i>
+        <h3>Kindle Direct Publishing</h3>
+        <p>Publish your book seamlessly on Amazon Kindle.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+
+      <div class="possibility-box">
+        <i class="fa-solid fa-chalkboard"></i>
+        <h3>Textbook Publishing</h3>
+        <p>Professional formats for educational textbooks.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+
+      <div class="possibility-box">
+        <i class="fa-solid fa-print"></i>
+        <h3>Book Printing</h3>
+        <p>High‑quality printing for any book genre.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+
+      <div class="possibility-box">
+        <i class="fa-solid fa-bullhorn"></i>
+        <h3>Book Marketing</h3>
+        <p>Promote your book and reach more readers.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+
+      <div class="possibility-box">
+        <i class="fa-solid fa-image"></i>
+        <h3>Book Cover Design</h3>
+        <p>Eye‑catching cover designs crafted for impact.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+
+      <div class="possibility-box">
+        <i class="fa-solid fa-align-left"></i>
+        <h3>Book Layout & Design</h3>
+        <p>Clean, readable layouts for a polished look.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- End -->
+
+    <!-- Testimonial Section -->
+     
+  <!-- Swiper CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+  />
+
+<section class="testimonial-section">
+  <h2>What Our <span> Clients</span> Say</h2>
+  
+  <div class="swiper testimonial-swiper">
+    <div class="swiper-wrapper">
+      
+      <div class="swiper-slide">
+        <img src="https://randomuser.me/api/portraits/women/68.jpg" class="profile-img" alt="Sarah">
+        <h4>Sarah J.</h4>
+        <span class="city">New York</span>
+        <p>"Amazing service! My book got published seamlessly."</p>
+        <div class="stars">★★★★★</div>
+      </div>
+      
+      <div class="swiper-slide">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="profile-img" alt="Mark">
+        <h4>Mark T.</h4>
+        <span class="city">Los Angeles</span>
+        <p>"Highly professional team, really helped me polish my manuscript."</p>
+        <div class="stars">★★★★★</div>
+      </div>
+      
+      <div class="swiper-slide">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="profile-img" alt="Emily">
+        <h4>Emily R.</h4>
+        <span class="city">London</span>
+        <p>"The editing and design were top-notch. I highly recommend them."</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="https://randomuser.me/api/portraits/men/45.jpg" class="profile-img" alt="James">
+        <h4>James L.</h4>
+        <span class="city">Sydney</span>
+        <p>"Quick, reliable, and very creative publishing solutions."</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="https://randomuser.me/api/portraits/women/55.jpg" class="profile-img" alt="Rachel">
+        <h4>Rachel K.</h4>
+        <span class="city">Toronto</span>
+        <p>"Excellent guidance and support throughout the publishing process."</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+    </div>
+    
+    <!-- Pagination dots -->
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.testimonial-swiper', {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 30,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      640: { slidesPerView: 1 },
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 },
+    },
+  });
 </script>
 
 
-<!-- Feature Section -->
-<div class="feature-container">
-  <div class="feature-inner-container">
-    <!-- Left Column -->
-<div class="feature-text">
-  <h2>Professional Book Publishing</h2>
-  <p>We help authors bring their stories to life with expert editing, design, and publishing services. Whether you’re a first-time author or experienced, we guide you every step of the way.</p>
-  <a href="#" title="Get Started">Get Started</a>
-</div>
-
-    <!-- Right Column -->
-    <div class="feature-image">
-      <img src="images/home-feature-book-image.webp" alt="home-feature-book-image" title="home-feature-book-image" loading="lazy" />
-    </div>
-  </div>
-</div>
-
-<div class="another-feature-card-container">
-  <div class="another-feature-card-inner-contianer">
-    <!-- 1 -->
-     <div class="feature-inner-container another-feature-card1" id="another-feature-card">
-    <!-- Left Column -->
-<div class="feature-text">
-  <h2>Professional Book Publishing</h2>
-  <p>We help authors bring their stories to life with expert editing, design, and publishing services. Whether you’re a first-time author or experienced, we guide you every step of the way.</p>
-  <a href="#" title="Get Started">Get Started</a>
-</div>
-
-    <!-- Right Column -->
-    <div class="feature-image">
-      <img src="images/home-another-feature-book-image-1.webp" alt="home-another-feature-book-image-1" title="home-another-feature-book-image-1" loading="lazy" />
-    </div>
-  </div>
-  <!-- end` -->
-  <!-- 2 -->
-   <div class="feature-inner-container another-feature-card2" id="another-feature-card">
-    <!-- Left Column -->
-<div class="feature-text">
-  <h2>Professional Book Publishing</h2>
-  <p>We help authors bring their stories to life with expert editing, design, and publishing services. Whether you’re a first-time author or experienced, we guide you every step of the way.</p>
-  <a href="#" title="Get Started">Get Started</a>
-</div>
-
-    <!-- Right Column -->
-    <div class="feature-image">
-      <img src="images/home-another-feature-book-image-2.webp" alt="home-another-feature-book-image-2" title="home-another-feature-book-image-2" loading="lazy" />
-    </div>
-  </div>
-  <!-- end -->
-  </div>
-</div>
 </body>
+
 </html>
